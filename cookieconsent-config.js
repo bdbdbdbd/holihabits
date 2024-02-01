@@ -3,8 +3,8 @@ import 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v3.0.0/dist/cookieco
 CookieConsent.run({
     guiOptions: {
         consentModal: {
-            layout: "box",
-            position: "bottom left",
+            layout: "bar inline",
+            position: "bottom",
             equalWeightButtons: true,
             flipButtons: false
         },
@@ -21,17 +21,17 @@ CookieConsent.run({
         }
     },
     language: {
-        default: "en",
+        default: "nl",
         autoDetect: "browser",
         translations: {
-            en: {
+            nl: {
                 consentModal: {
-                    title: "Hello traveller, it's cookie time!",
-                    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.",
-                    acceptAllBtn: "Accept all",
-                    acceptNecessaryBtn: "Reject all",
-                    showPreferencesBtn: "Manage preferences",
-                    footer: "<a href=\"#link\">Privacy Policy</a>\n<a href=\"#link\">Terms and conditions</a>"
+                    title: "Wij gebruiken cookies",
+                    description: "Om HoliHabits te gebruiken moet je akkoord gaan met ons cookie beleid. Lees meer in de Privacy Policy en Algemene Voorwaarden.",
+                    acceptAllBtn: "Prima",
+                    // acceptNecessaryBtn: "Reject all",
+                    // showPreferencesBtn: "Manage preferences",
+                    footer: "<a href=\"/privacyverklaring\">Privacy Policy</a>\n<a href=\"/voorwaarden\">Algemene Voorwaarden</a>"
                 },
                 preferencesModal: {
                     title: "Consent Preferences Center",
