@@ -31,7 +31,7 @@ CookieConsent.run({
                     acceptAllBtn: "Prima",
                     // acceptNecessaryBtn: "Reject all",
                     // showPreferencesBtn: "Manage preferences",
-                    footer: "<a href=\"/privacyverklaring\">Privacy Policy</a>\n<a href=\"/voorwaarden\">Algemene Voorwaarden</a>"
+                    // footer: "<a href=\"/privacyverklaring\">Privacy Policy</a>\n<a href=\"/voorwaarden\">Algemene Voorwaarden</a>"
                 },
                 preferencesModal: {
                     title: "Consent Preferences Center",
